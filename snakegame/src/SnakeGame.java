@@ -13,7 +13,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
 
     private final int[] snakeX = new int[GAME_UNITS];
     private final int[] snakeY = new int[GAME_UNITS];
-    private int snakeLength = 100;
+    private int snakeLength = 1;
 
     private int foodX;
     private int foodY;
